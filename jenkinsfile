@@ -10,15 +10,5 @@ node(){
 	
 	}
 	
-    stage("Welcome"){
-        
-        sh """
-       
-        ls -al
-        echo "welcome"
-        
-	"""
-	
-	}
-        
+    
  }
