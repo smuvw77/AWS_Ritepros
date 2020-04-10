@@ -14,7 +14,7 @@ node(){
         
         sh """
        
-        ls -alt
+        ls -a
         echo "welcome"
         
 	"""
