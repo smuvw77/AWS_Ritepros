@@ -1,0 +1,24 @@
+node(){
+    
+   
+    stage("S3 list"){
+        
+        sh """
+        aws s3 ls
+        
+	"""
+	
+	}
+	
+    stage("Welcome"){
+        
+        sh """
+       
+        ls -alt
+        echo "welcome"
+        
+	"""
+	
+	}
+        
+ }
